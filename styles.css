@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "Hack";
-	url('/fonts/Hack-Regular.ttf') format('ttf');
-	url('/fonts/Hack-Bold.ttf') format('ttf');
-	url('/fonts/Hack-Italic.ttf') format('ttf');
+	url('/fonts/Hack-Regular.ttf') format('ttf'),
+	url('/fonts/Hack-Bold.ttf') format('ttf'),
+	url('/fonts/Hack-Italic.ttf') format('ttf'),
 	url('/fonts/Hack-BoldItalic.ttf') format('ttf');
 }
 

@@ -1,17 +1,10 @@
 body {
   background-color: #282a2e;
+  font-family: "Hack";
 }
 h1 {
   color: yellow;
 }
 p {
   color: yellow;
-}
-
-
-@font-face {
-  font-family: Hack;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://codeberg.org/Drogobo/HackForDiscord/raw/branch/main/font/Hack-Regular.ttf) format("Hack");
 }

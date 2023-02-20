@@ -1,9 +1,10 @@
 @font-face {
-	font-family: "Hack";
-	url('/fonts/Hack-Regular.ttf') format('ttf'),
-	url('/fonts/Hack-Bold.ttf') format('ttf'),
-	url('/fonts/Hack-Italic.ttf') format('ttf'),
-	url('/fonts/Hack-BoldItalic.ttf') format('ttf');
+    font-family: 'Hack';
+    src: url('fonts/hack-regular-webfont.woff2') format('woff2'),
+         url('fonts/hack-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {

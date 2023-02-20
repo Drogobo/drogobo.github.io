@@ -10,6 +10,7 @@ body {
 	background-color: #282a2e;
 	font-family: "Hack";
 	text-align: center;
+	font-weight: normal;
 	word-wrap: break-word;
 	margin: 50px 50px 50px 50px;
 }

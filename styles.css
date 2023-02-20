@@ -1,15 +1,35 @@
 @font-face {
-    font-family: 'Hack';
-    src: url('fonts/hack-regular-webfont.woff2') format('woff2'),
-         url('fonts/hack-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'hackbold';
+	src: url('fonts/hack-bold-webfont.woff2') format('woff2'),
+		 url('fonts/hack-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'hackbold_italic';
+	src: url('fonts/hack-bolditalic-webfont.woff2') format('woff2'),
+		url('fonts/hack-bolditalic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'hackitalic';
+	src: url('fonts/hack-italic-webfont.woff2') format('woff2'),
+		url('fonts/hack-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'hackregular';
+	src: url('fonts/hack-regular-webfont.woff2') format('woff2'),
+		url('fonts/hack-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
 	background-color: #282a2e;
-	font-family: "Hack";
+	font-family: "hackregular";
 	text-align: center;
 	font-weight: normal;
 	word-wrap: break-word;
@@ -17,7 +37,7 @@ body {
 }
 h {
 	color: #fefd30;
-	font-weight: bold;
+	font-family: "hackbold";
 	font-size: 30px;
 }
 p {

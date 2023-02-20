@@ -1,17 +1,24 @@
 @font-face {
 	font-family: "Hack";
 	url('fonts/Hack-Regular.ttf') format('truetype');
+	url('fonts/Hack-Bold.ttf') format('truetype');
+	url('fonts/Hack-Italic.ttf') format('truetype');
+	url('fonts/Hack-BoldItalic.ttf') format('truetype');
 }
 
 body {
 	background-color: #282a2e;
 	font-family: "Hack";
+	text-align: center;
+	word-wrap: break-word;
+	margin: 50px 50px 50px 50px;
 }
-h1 {
-	color: yellow;
-	font-family: "Hack";
+h {
+	color: #fefd30;
+	font-weight: bold;
+	font-size: 30px;
 }
 p {
-	color: yellow;
-	font-family: "Hack";
+	color: #fefd30;
+	font-size: 20px;
 }

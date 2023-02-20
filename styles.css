@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
 	font-family: 'hackbold';
 	src: url('fonts/hack-bold-webfont.woff2') format('woff2'),
@@ -27,6 +28,24 @@
 	font-style: normal;
 }
 
+/* lists */
+ul {
+	margin: 0;
+	color: #fefd30;
+	font-size: 20px;
+}
+ul.dashed {
+	list-style-type: none;
+}
+ul.dashed > li {
+	text-indent: -5px;
+}
+ul.dashed > li:before {
+	content: "-";
+	text-indent: -5px;
+}
+
+/* page design */
 body {
 	background-color: #282a2e;
 	font-family: "hackregular";
@@ -43,4 +62,18 @@ h {
 p {
 	color: #fefd30;
 	font-size: 20px;
+}
+
+/* links */
+a:link {
+	color: #fffe82;
+}
+a:visited {
+	color: #fffe64;
+}
+a:hover {
+	color: #fefd30;
+}
+a:active {
+	color: #000000;
 }

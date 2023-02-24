@@ -1,3 +1,9 @@
+/*!
+ *  Hack typeface https://github.com/source-foundry/Hack
+ *  License: https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+ */
+/* FONT PATHS
+ * -------------------------- */
 @font-face {
   font-family: 'Hack';
   src: url('fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-regular.woff?sha=3114f1256') format('woff');
@@ -26,54 +32,3 @@
   font-style: italic;
 }
 
-
-/* lists */
-ul {
-	margin: 0;
-	color: #fefd30;
-	font-size: 20px;
-}
-ul.dashed {
-	list-style-type: none;
-}
-ul.dashed > li {
-	text-indent: -5px;
-}
-ul.dashed > li:before {
-	content: "-";
-	text-indent: -5px;
-}
-
-/* page design */
-body {
-	background-color: #282a2e;
-	font-family: "Hack";
-	text-align: center;
-	font-weight: normal;
-	word-wrap: break-word;
-	margin: 50px 50px 50px 50px;
-}
-h {
-	color: #fefd30;
-	font-family: "Hack";
-	font-size: 30px;
-	font-weight: bold;
-}
-p {
-	color: #fefd30;
-	font-size: 20px;
-}
-
-/* links */
-a:link {
-	color: #fffe82;
-}
-a:visited {
-	color: #fffe64;
-}
-a:hover {
-	color: #fefd30;
-}
-a:active {
-	color: #000000;
-}

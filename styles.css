@@ -45,7 +45,7 @@ ul.dashed > li:before {
 body {
 	background-color: #282a2e;
 	font-family: "Hack";
-	text-align: center;
+	text-align: left;
 	font-weight: normal;
 	word-wrap: break-word;
 	margin: 50px 50px 50px 50px;
@@ -55,7 +55,6 @@ h {
 	font-family: "Hack";
 	font-size: 30px;
 	font-weight: bold;
-	padding: 20px;
 }
 p {
 	color: #fefd30;
@@ -65,6 +64,7 @@ footer {
 	color: #fefd30;
 	font-size: 14px;
 	padding: 20px;
+	text-align: center;
 }
 
 /* links */

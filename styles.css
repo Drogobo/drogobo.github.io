@@ -32,16 +32,13 @@ ul {
 	margin: 0;
 	color: #fefd30;
 	font-size: 20px;
+	text-align: left;
 }
 ul.dashed {
 	list-style-type: none;
 }
-ul.dashed > li {
-	text-indent: -5px;
-}
 ul.dashed > li:before {
 	content: "-";
-	text-indent: -5px;
 }
 
 /* page design */
@@ -51,13 +48,14 @@ body {
 	text-align: center;
 	font-weight: normal;
 	word-wrap: break-word;
-	margin: 50px 50px 50px 50px;
+	margin: 50px 400px 50px 400px;
 }
 h {
 	color: #fefd30;
 	font-family: "Hack";
 	font-size: 30px;
 	font-weight: bold;
+	padding: 20px;
 }
 p {
 	color: #fefd30;
@@ -66,6 +64,7 @@ p {
 footer {
 	color: #fefd30;
 	font-size: 14px;
+	padding: 20px;
 }
 
 /* links */

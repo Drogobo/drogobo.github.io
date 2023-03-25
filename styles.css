@@ -60,6 +60,10 @@ p {
 	color: #fefd30;
 	font-size: 20px;
 }
+strong {
+	color: #ffffff;
+	font-weight: bold;
+}
 footer {
 	color: #fefd30;
 	font-size: 14px;

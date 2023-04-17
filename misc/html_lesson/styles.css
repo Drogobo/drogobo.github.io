@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* lists */
+ul {
+	margin: 0;
+	color: #fefd30;
+	font-size: 20px;
+	text-align: left;
+}
+ul.dashed {
+	list-style-type: none;
+}
+ul.dashed > li:before {
+	content: "-";
+}
+
+/* page design */
+body {
+	background-color: #282a2e;
+	font-family: "Hack";
+	text-align: left;
+	font-weight: normal;
+	word-wrap: break-word;
+	margin: 50px 50px 50px 50px;
+}
+h {
+	color: #fefd30;
+	font-family: "Hack";
+	font-size: 30px;
+	font-weight: bold;
+}
+p {
+	color: #fefd30;
+	font-size: 20px;
+}
+strong {
+	color: #ffffff;
+	font-weight: bold;
+}
+roboto {
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	color: red;
+}
+footer {
+	color: #fefd30;
+	font-size: 14px;
+	padding: 20px;
+	text-align: center;
+}
+.
+/* links */
+a:link {
+	color: #fffe82;
+}
+a:visited {
+	color: #fffe64;
+}
+a:hover {
+	color: #fefd30;
+}
+a:active {
+	color: #000000;
+}
